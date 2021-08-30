@@ -40,5 +40,5 @@ if __name__ == '__main__':
         t.start()
         t.join()
     except KeyboardInterrupt:
-        prin
         t.stop()
+        t.join()
