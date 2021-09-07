@@ -29,21 +29,4 @@ class One(Process):
 
 
 if __name__ == '__main__':
-    One().start()  # this should exit with
-
-'''
-Process One-1:
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
-    self.run()
-  File "/home/nbdy/PycharmProjects/procpy/procpy/__init__.py", line 48, in run
-    self.work()
-  File "/home/nbdy/PycharmProjects/procpy/procpy/__init__.py", line 43, in work
-    raise Exception("This method should be overridden.")
-Exception: This method should be overridden.
-Error in atexit._run_exitfuncs:
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/multiprocessing/popen_fork.py", line 27, in poll
-    pid, sts = os.waitpid(self.pid, flag)
-KeyboardInterrupt
-'''
+    One().start()  # this should exit with an exception

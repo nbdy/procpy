@@ -56,7 +56,6 @@ class Process(Proc):
             sleep(n)
         except KeyboardInterrupt:
             self.stop()
-            pass
 
     def is_running(self):
         return self._do_run
