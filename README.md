@@ -7,3 +7,7 @@
 - [X] standard multiprocessing.Process functionality
 - [X] exposes
     - [X] multiprocessing.Queue
+## install
+```bash
+pip3 install procpy
+```
